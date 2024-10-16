@@ -17,7 +17,7 @@ get_lockfile_entry() {
 install_jhbuild() {
     # Fetch the gtk-osx setup script
     local gtk_osx_commit=$(get_lockfile_entry gtk-osx)
-    local gtk_osx_url=https://gitlab.gnome.org/GNOME/gtk-osx/raw/"$gtk_osx_commit"
+    local gtk_osx_url=https://gitlab.gnome.org/rolandlo/gtk-osx/raw/"$gtk_osx_commit"
     curl -LR "$gtk_osx_url"/gtk-osx-setup.sh -o ~/gtk-osx-setup.sh
 
     # Remove existing jhbuild
@@ -49,7 +49,7 @@ configure_jhbuild_envvars
 setup_custom_modulesets() {
     local gtk_osx_commit=$(get_lockfile_entry gtk-osx)
     [ -d ~/gtk-osx-custom ] && rm -rf ~/gtk-osx-custom
-    git clone https://gitlab.gnome.org/GNOME/gtk-osx.git ~/gtk-osx-custom
+    git clone -b update-glib-and-gobject-introspection https://gitlab.gnome.org/rolandlo/gtk-osx.git ~/gtk-osx-custom
     (cd ~/gtk-osx-custom && git checkout "$gtk_osx_commit")
 
     # Set osx deployment target
