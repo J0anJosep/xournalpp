@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-18 08:32+0000\n"
-"PO-Revision-Date: 2024-10-18 19:16\n"
+"PO-Revision-Date: 2024-10-19 11:08\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -80,9 +80,9 @@ msgstr "Impossibile recuperare la pagina pdf."
 msgid "Do not open Autosave files. They may will be overwritten!\n"
 "Copy the files to another folder.\n"
 "Files from Folder {1} cannot be opened."
-msgstr "Non aprire file di Autosalvataggio. Potrebbero essere sovrascritti!\n"
-"Copia i files in un'altra cartella.\n"
-"I files nella cartella {1} non possono essere aperti."
+msgstr "Non aprire file salvati automaticamente. Potrebbero essere sovrascritti!\n"
+"Copia i file in un'altra cartella.\n"
+"I file della cartella {1} non possono essere aperti."
 
 #: ../src/core/control/Control.cpp:1461
 msgid "file: {1}"
@@ -305,15 +305,15 @@ msgstr "File segnalazione errori"
 
 #: ../src/core/control/XournalMain.cpp:203
 msgid "Open Logfile"
-msgstr "Apri Logfile"
+msgstr "Apri registro"
 
 #: ../src/core/control/XournalMain.cpp:204
 msgid "Open Logfile directory"
-msgstr "Apri cartella di log"
+msgstr "Apri la cartella dei registri"
 
 #: ../src/core/control/XournalMain.cpp:205
 msgid "Delete Logfile"
-msgstr "Cancella Logfile"
+msgstr "Elimina registro"
 
 #: ../src/core/control/XournalMain.cpp:207
 msgid "Crash log"
@@ -804,7 +804,7 @@ msgstr "Colore sconosciuto: \"{1}\""
 
 #: ../src/core/control/xojfile/LoadHandlerHelper.cpp:96
 msgid "Color \"{1}\" unknown (not defined in default color list)!"
-msgstr "Colore sconosciuto: \"{1}\" (non definito nella lista di default)"
+msgstr "Colore sconosciuto: \"{1}\" (non esiste nella lista predefinita)!"
 
 #: ../src/core/control/xojfile/LoadHandlerHelper.cpp:123
 msgid "Attribute \"{1}\" could not be parsed as double, the value is nullptr"
