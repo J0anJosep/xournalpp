@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-18 08:32+0000\n"
-"PO-Revision-Date: 2024-10-18 19:16\n"
+"PO-Revision-Date: 2024-10-19 11:08\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -479,7 +479,7 @@ msgstr "Wordt automatisch opgeslagen naar {1}"
 
 #: ../src/core/control/jobs/AutosaveJob.cpp:68
 msgid "Could not rename autosave file from \"{1}\" to \"{2}\": {3}"
-msgstr "Kan automatisch bestand niet hernoemen van '{1}' in '{2}': {3}"
+msgstr "Kan automatisch opgeslagen bestand niet hernoemen van '{1}' in '{2}': {3}"
 
 #: ../src/core/control/jobs/BaseExportJob.cpp:40
 msgid "Do not overwrite the background PDF! This will cause errors!"
