@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-18 08:32+0000\n"
-"PO-Revision-Date: 2024-10-19 11:08\n"
+"PO-Revision-Date: 2024-10-19 12:08\n"
 "Last-Translator: \n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
@@ -1466,7 +1466,7 @@ msgstr "Draaien vastklikken"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:309
 msgid "Grid Snapping"
-msgstr "Vastklikken aan raster"
+msgstr "Magnetisch raster"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:317
 msgid "Paired pages"
