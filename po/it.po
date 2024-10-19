@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-10-18 08:32+0000\n"
-"PO-Revision-Date: 2024-10-19 12:08\n"
+"PO-Revision-Date: 2024-10-19 13:18\n"
 "Last-Translator: \n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
@@ -1599,7 +1599,7 @@ msgstr "Aggiungi/Modifica TeX"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:396
 msgid "Default Tool"
-msgstr "Strumento di Default"
+msgstr "Strumento predefinito"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:398
 #: ../src/core/gui/toolbarMenubar/ToolPdfCombocontrol.cpp:14
@@ -1885,7 +1885,7 @@ msgstr "Cambia riempimento tratto"
 
 #: ../src/core/undo/FontUndoAction.cpp:118
 msgid "Change font"
-msgstr "Cambia font"
+msgstr "Cambia carattere"
 
 #: ../src/core/undo/InsertDeletePageUndoAction.cpp:83
 msgid "Page inserted"
@@ -2514,7 +2514,7 @@ msgstr "minuti"
 
 #: ../ui/settings.glade:443
 msgid "Autosaving"
-msgstr "Autosalvataggio: {1}"
+msgstr "Salvataggio automatico"
 
 #: ../ui/settings.glade:469
 msgid "<i>This name will be proposed if you save a new document.</i>"
@@ -2522,7 +2522,7 @@ msgstr "<i>Questo nome sarà proposto salvando un nuovo documento </i>"
 
 #: ../ui/settings.glade:502 ../ui/settings.glade:671
 msgid "Default name: "
-msgstr "<b>Nome predefinito:</b> "
+msgstr "Nome predefinito: "
 
 #: ../ui/settings.glade:541
 msgid "%a\t\tAbbreviated weekday name (e.g. Thu)\n"
@@ -2580,7 +2580,7 @@ msgstr "Segnaposto disponibili"
 
 #: ../ui/settings.glade:612
 msgid "Default Save Name"
-msgstr "<b>Nome salvataggio predefinito</b> "
+msgstr "Nome predefinito del file"
 
 #: ../ui/settings.glade:638
 msgid "<i>This name will be proposed if you export a document to PDF.</i>"
@@ -2644,7 +2644,7 @@ msgstr "Nome predefinito del PDF"
 
 #: ../ui/settings.glade:806
 msgid "Enable Autoloading of Journals"
-msgstr "Abilita il caricamento automatico dei Journal"
+msgstr "Abilita il caricamento automatico dei documenti"
 
 #: ../ui/settings.glade:811
 msgid "If you open a PDF and there is a Xournal file with the same name it will open the xoj file."
@@ -2987,11 +2987,11 @@ msgstr "Riconoscimento del palmo"
 
 #: ../ui/settings.glade:2602
 msgid "<i>Use pinch gestures to zoom journal pages.</i>"
-msgstr "<i>Usa le gestures per zoommare le pagine</i>"
+msgstr "<i>Usare le dita per fare zoom sulle pagine del documento.</i>"
 
 #: ../ui/settings.glade:2616
 msgid "Enable zoom gestures (requires restart)"
-msgstr "Attiva le gestures per lo zoom (necessita riavvio) "
+msgstr "Attiva i gesti per lo zoom (necessita riavvio)"
 
 #: ../ui/settings.glade:2634
 msgid "When drawing with touch, two-finger gestures intended to pan the view can instead cause it to zoom, causing performance issues.\n"
@@ -3045,7 +3045,7 @@ msgstr "Scorrimento col tocco"
 
 #: ../ui/settings.glade:2913
 msgid "Show Menubar on Startup"
-msgstr "Mostra le opzioni all'avvio"
+msgstr "Mostra le la barra dei menu all'avvio"
 
 #: ../ui/settings.glade:2931
 msgid "<i>Toggle visibility of menubar with F10</i>"
@@ -3272,7 +3272,7 @@ msgstr "Mostra barra degli strumenti"
 #: ../ui/settings.glade:3871 ../ui/settings.glade:3960
 #: ../ui/mainmenubar.xml:211
 msgid "Show Sidebar"
-msgstr "Mostra le anteprime"
+msgstr "Mostra barra laterale"
 
 #: ../ui/settings.glade:3890 ../ui/mainmenubar.xml:194
 msgid "Fullscreen"
