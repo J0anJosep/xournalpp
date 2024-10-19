@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-18 08:32+0000\n"
-"PO-Revision-Date: 2024-10-18 19:15\n"
+"POT-Creation-Date: 2024-10-19 14:57+0000\n"
+"PO-Revision-Date: 2024-10-19 18:14\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -2033,11 +2033,11 @@ msgid "File couldn't be opened. You have to do it manually:\n"
 msgstr "Fișierul nu a putut fi deschis. Trebuie deschis manual:\n"
 "URL: {1}"
 
-#: ../src/util/PathUtil.cpp:249
+#: ../src/util/PathUtil.cpp:286
 msgid "xournalpp-{1}"
 msgstr "xournalpp-{1}"
 
-#: ../src/util/PathUtil.cpp:259
+#: ../src/util/PathUtil.cpp:296
 msgid "Could not create folder: {1}\n"
 "Failed with error: {2}"
 msgstr "Nu s-a putut crea dosarul: {1}\n"
@@ -3191,7 +3191,7 @@ msgstr "Cursor"
 
 #: ../ui/settings.glade:3563
 msgid "Show sidebar on the right side"
-msgstr "Arată miniaturile în dreaptă"
+msgstr "Arată panoul lateral în dreaptă"
 
 #: ../ui/settings.glade:3578
 msgid "Show vertical scrollbar on the left side"
@@ -3219,7 +3219,7 @@ msgstr "Într-un pătrat"
 
 #: ../ui/settings.glade:3660
 msgid "Sidebar"
-msgstr "Miniaturi"
+msgstr "Panoul lateral"
 
 #: ../ui/settings.glade:3686
 msgid "Hide the horizontal scrollbar"
@@ -3269,7 +3269,7 @@ msgstr "Arată banda cu instrumente"
 #: ../ui/settings.glade:3871 ../ui/settings.glade:3960
 #: ../ui/mainmenubar.xml:211
 msgid "Show Sidebar"
-msgstr "Arată miniaturile"
+msgstr "Arată Panoul lateral"
 
 #: ../ui/settings.glade:3890 ../ui/mainmenubar.xml:194
 msgid "Fullscreen"
@@ -4361,7 +4361,7 @@ msgstr "Compatibilitate cu LaTeX (necesită o instalare LaTeX funcțională) cu 
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:38
 msgid "Sidebar containing page previews with advanced page sorting, PDF bookmarks and layers (can be individually hidden/edited)"
-msgstr "Panou lateral care conține previzualizări de pagini cu aranjare avansată a paginilor, marcaje PDF și straturi (pot fi ascunse/modificate individual)"
+msgstr "Panou lateral care conține previzualizări de pagini cu aranjare avansată a paginilor, semne de carte pentru PDF și straturi (pot fi ascunse/modificate individual)"
 
 #: ../resources-templates/com.github.xournalpp.xournalpp.appdata.xml.in:39
 msgid "Allows mapping different tools/colors etc. to stylus/mouse buttons"
