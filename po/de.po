@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-18 08:32+0000\n"
-"PO-Revision-Date: 2024-10-18 19:16\n"
+"POT-Creation-Date: 2024-10-19 14:57+0000\n"
+"PO-Revision-Date: 2024-10-20 04:23\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Language: de_DE\n"
@@ -54,11 +54,11 @@ msgstr "Abbrechen"
 
 #: ../src/core/control/Control.cpp:799
 msgid "Insert after current page"
-msgstr "Nach aktueller Seite hinzufügen"
+msgstr "Nach aktueller Seite einfügen"
 
 #: ../src/core/control/Control.cpp:800
 msgid "Insert at end"
-msgstr "Am Ende einfugen"
+msgstr "Am Ende einfügen"
 
 #: ../src/core/control/Control.cpp:803
 msgid "Your current document does not contain PDF Page no {1}\n"
@@ -103,7 +103,7 @@ msgstr "Die zu ladende Datei hat eine neuere Dateiformatversion als die, die der
 #: ../src/core/control/Control.cpp:1542
 msgid "Error reading PDF file \"{1}\"\n"
 "{2}"
-msgstr "Fehler beim Öffnen des PDFs \"{1}\"\n"
+msgstr "Fehler beim Lesen der PDF-Datei \"{1}\"\n"
 "{2}"
 
 #: ../src/core/control/Control.cpp:1663
@@ -120,7 +120,7 @@ msgstr "Die Hintergrunddatei \"{1}\" konnte nicht gefunden werden. Sie wurde mö
 msgid "\n"
 "Proposed replacement file: \"{1}\""
 msgstr "\n"
-"Vorgeschlagene Datei: \"{1}\""
+"Vorgeschlagene Ersatzdatei: \"{1}\""
 
 #: ../src/core/control/Control.cpp:1681
 msgid "Select another PDF"
@@ -221,7 +221,7 @@ msgstr "Trackpoint"
 
 #: ../src/core/control/DeviceListHelper.cpp:113
 msgid "tablet pad"
-msgstr "Grafiktablet"
+msgstr "Stifttablett"
 
 #: ../src/core/control/ExportHelper.cpp:78
 msgid "Image file successfully created"
@@ -1175,7 +1175,7 @@ msgstr "Eingebaute Paletten"
 
 #: ../src/core/gui/dialog/SettingsDialogPaletteTab.cpp:32
 msgid "User palettes"
-msgstr ""
+msgstr "Benutzerpaletten"
 
 #: ../src/core/gui/dialog/SettingsDialogPaletteTab.cpp:96
 msgid "<i>The palettes shown below are obtained from the <a href=\"file://{1}\">Built-in palettes</a> and <a href=\"file://{2}\">User palettes</a> directories:</i>\n"
@@ -2032,11 +2032,11 @@ msgid "File couldn't be opened. You have to do it manually:\n"
 msgstr "Datei konnte nicht geöffnet werden, Sie müssen sie manuell öffnen:\n"
 "URL: {1}"
 
-#: ../src/util/PathUtil.cpp:249
+#: ../src/util/PathUtil.cpp:286
 msgid "xournalpp-{1}"
 msgstr "xournalpp-{1}"
 
-#: ../src/util/PathUtil.cpp:259
+#: ../src/util/PathUtil.cpp:296
 msgid "Could not create folder: {1}\n"
 "Failed with error: {2}"
 msgstr "Ordner konnte nicht erstellt werden: {1}\n"
