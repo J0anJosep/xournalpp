@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-19 14:57+0000\n"
-"PO-Revision-Date: 2024-10-19 18:14\n"
+"POT-Creation-Date: 2024-10-21 18:49+0000\n"
+"PO-Revision-Date: 2024-10-21 18:52\n"
 "Last-Translator: \n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
@@ -1020,15 +1020,14 @@ msgid "Draw Double Arrow"
 msgstr "Desenează săgeți duble"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:139
-#: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:40
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:414
-msgid "Draw coordinate system"
+msgid "Draw Coordinate System"
 msgstr "Desenează sistemul de coordonate"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
-#: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:44
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:407
 #: ../src/core/undo/RecognizerUndoAction.cpp:61
-msgid "Stroke recognizer"
+msgid "Shape Recognizer"
 msgstr "Recunoaște forma"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:143
@@ -1411,6 +1410,14 @@ msgstr "Previzualizare strat"
 msgid "Page Preview"
 msgstr "Previzualizare a paginii"
 
+#: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:40
+msgid "Draw coordinate system"
+msgstr "Desenează sistemul de coordonate"
+
+#: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:44
+msgid "Stroke recognizer"
+msgstr "Recunoaște forma"
+
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:58
 msgid "Drawing Type Combo"
 msgstr "Tipuri de desenare"
@@ -1617,10 +1624,6 @@ msgstr "Echer"
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:403
 msgid "Compass"
 msgstr "Compas"
-
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:407
-msgid "Shape Recognizer"
-msgstr "Recunoaște forma"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:419
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:13
@@ -3465,10 +3468,6 @@ msgstr "Mărimea minimă a formei"
 msgid "0.20"
 msgstr "0.20"
 
-#: ../ui/settings.glade:5149
-msgid "Stroke Recognizer"
-msgstr "Recunoaște forma"
-
 #: ../ui/settings.glade:5175
 msgid "Enable Tap action"
 msgstr "Activează acțiunea la atingere"
@@ -4121,10 +4120,6 @@ msgstr "Tip de desenare"
 #: ../ui/mainmenubar.xml:558
 msgid "_Shape Recognizer"
 msgstr "Recunoaște _forma"
-
-#: ../ui/mainmenubar.xml:583
-msgid "Draw Coordinate System"
-msgstr "Desenează sistemul de coordonate"
 
 #: ../ui/mainmenubar.xml:588
 msgid "Draw _Line"
