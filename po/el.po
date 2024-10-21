@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-18 08:32+0000\n"
-"PO-Revision-Date: 2024-10-18 19:16\n"
+"POT-Creation-Date: 2024-10-21 18:49+0000\n"
+"PO-Revision-Date: 2024-10-21 18:52\n"
 "Last-Translator: \n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
@@ -1015,16 +1015,15 @@ msgid "Draw Double Arrow"
 msgstr "Σχεδίασε Διπλό Βέλος"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:139
-#: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:40
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:414
-msgid "Draw coordinate system"
-msgstr "Σχεδίασε σύστημα συντεταγμένων"
+msgid "Draw Coordinate System"
+msgstr ""
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
-#: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:44
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:407
 #: ../src/core/undo/RecognizerUndoAction.cpp:61
-msgid "Stroke recognizer"
-msgstr "Αναγνωρισμός μολυβιάς"
+msgid "Shape Recognizer"
+msgstr "Αναγνωρισμός Σχήματος"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:143
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:42
@@ -1404,6 +1403,14 @@ msgstr "Προεπισκόπηση Στρώσης"
 msgid "Page Preview"
 msgstr "Προεπισκόπηση Σελίδας"
 
+#: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:40
+msgid "Draw coordinate system"
+msgstr "Σχεδίασε σύστημα συντεταγμένων"
+
+#: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:44
+msgid "Stroke recognizer"
+msgstr "Αναγνωρισμός μολυβιάς"
+
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:58
 msgid "Drawing Type Combo"
 msgstr "Τύπος Σχεδίασης Combo"
@@ -1610,10 +1617,6 @@ msgstr ""
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:403
 msgid "Compass"
 msgstr ""
-
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:407
-msgid "Shape Recognizer"
-msgstr "Αναγνωρισμός Σχήματος"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:419
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:13
@@ -2026,11 +2029,11 @@ msgid "File couldn't be opened. You have to do it manually:\n"
 msgstr "Δεν ήταν δυνατό το άνοιγμα του αρχείου Πρέπει να γίνει χειροκίνητα.\n"
 "URL: {1}"
 
-#: ../src/util/PathUtil.cpp:249
+#: ../src/util/PathUtil.cpp:286
 msgid "xournalpp-{1}"
 msgstr "xournalpp-{1}"
 
-#: ../src/util/PathUtil.cpp:259
+#: ../src/util/PathUtil.cpp:296
 msgid "Could not create folder: {1}\n"
 "Failed with error: {2}"
 msgstr "Αδυναμία δημιουργίας φακέλου: {1}\n"
@@ -3401,10 +3404,6 @@ msgstr ""
 msgid "0.20"
 msgstr ""
 
-#: ../ui/settings.glade:5149
-msgid "Stroke Recognizer"
-msgstr ""
-
 #: ../ui/settings.glade:5175
 msgid "Enable Tap action"
 msgstr "Ενεργοποίηση ενέργειας κατά το στιγμιαίο κλίκ"
@@ -4050,10 +4049,6 @@ msgstr ""
 
 #: ../ui/mainmenubar.xml:558
 msgid "_Shape Recognizer"
-msgstr ""
-
-#: ../ui/mainmenubar.xml:583
-msgid "Draw Coordinate System"
 msgstr ""
 
 #: ../ui/mainmenubar.xml:588
