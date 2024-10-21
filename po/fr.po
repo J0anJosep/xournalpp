@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xournalpp\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-18 08:32+0000\n"
-"PO-Revision-Date: 2024-10-18 19:15\n"
+"POT-Creation-Date: 2024-10-21 18:49+0000\n"
+"PO-Revision-Date: 2024-10-21 18:52\n"
 "Last-Translator: \n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
@@ -1019,16 +1019,15 @@ msgid "Draw Double Arrow"
 msgstr "Dessiner une double flèche"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:139
-#: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:40
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:414
-msgid "Draw coordinate system"
-msgstr "Dessiner le système de coordonnées"
+msgid "Draw Coordinate System"
+msgstr "Dessiner un système de coordonnées"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:141
-#: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:44
+#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:407
 #: ../src/core/undo/RecognizerUndoAction.cpp:61
-msgid "Stroke recognizer"
-msgstr "Identificateur de trait"
+msgid "Shape Recognizer"
+msgstr "Identificateur de forme"
 
 #: ../src/core/gui/dialog/ButtonConfigGui.cpp:143
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:42
@@ -1410,6 +1409,14 @@ msgstr "Aperçu du calque"
 msgid "Page Preview"
 msgstr "Aperçu de la page"
 
+#: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:40
+msgid "Draw coordinate system"
+msgstr "Dessiner le système de coordonnées"
+
+#: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:44
+msgid "Stroke recognizer"
+msgstr "Identificateur de trait"
+
 #: ../src/core/gui/toolbarMenubar/DrawingTypeComboToolButton.cpp:58
 msgid "Drawing Type Combo"
 msgstr "Combinaison de type de dessin"
@@ -1616,10 +1623,6 @@ msgstr "Équerre"
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:403
 msgid "Compass"
 msgstr "Rapporteur"
-
-#: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:407
-msgid "Shape Recognizer"
-msgstr "Identificateur de forme"
 
 #: ../src/core/gui/toolbarMenubar/ToolMenuHandler.cpp:419
 #: ../src/core/gui/toolbarMenubar/ToolSelectCombocontrol.cpp:13
@@ -2032,11 +2035,11 @@ msgid "File couldn't be opened. You have to do it manually:\n"
 msgstr "Le fichier n'a pas pu être ouvert. Vous devez le faire manuellement :\n"
 "URL : {1}"
 
-#: ../src/util/PathUtil.cpp:249
+#: ../src/util/PathUtil.cpp:286
 msgid "xournalpp-{1}"
 msgstr "xournalpp-{1}"
 
-#: ../src/util/PathUtil.cpp:259
+#: ../src/util/PathUtil.cpp:296
 msgid "Could not create folder: {1}\n"
 "Failed with error: {2}"
 msgstr "Impossible de créer le dossier : {1}\n"
@@ -3462,10 +3465,6 @@ msgstr "Taille d'écriture minimum"
 msgid "0.20"
 msgstr "0.2"
 
-#: ../ui/settings.glade:5149
-msgid "Stroke Recognizer"
-msgstr "Reconnaissance d'écriture"
-
 #: ../ui/settings.glade:5175
 msgid "Enable Tap action"
 msgstr "Activer l'action du bouton"
@@ -4118,10 +4117,6 @@ msgstr "Type de dessin"
 #: ../ui/mainmenubar.xml:558
 msgid "_Shape Recognizer"
 msgstr "_Reconnaissance de forme"
-
-#: ../ui/mainmenubar.xml:583
-msgid "Draw Coordinate System"
-msgstr "Dessiner un système de coordonnées"
 
 #: ../ui/mainmenubar.xml:588
 msgid "Draw _Line"
